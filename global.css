@@ -221,3 +221,12 @@ form button {
     cursor: pointer;
     margin: 10px 0 20px 20px;
 }
+
+.info h3 {
+    margin: 20px 20px 10px 20px;
+}
+
+.info p {
+    margin: 8px 20px;
+}
+
