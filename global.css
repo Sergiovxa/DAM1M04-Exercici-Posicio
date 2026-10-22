@@ -113,12 +113,13 @@ footer p {
 /* Coleccions: grid de 3 columnas */
 
 .coleccions {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 .carta {
+    flex: 1 1 260px;
     background-color: #111;
     border: 1px solid #00d4ff;
 }
