@@ -211,3 +211,13 @@ input, textarea {
     margin: 0 0 10px 20px;
 }
 
+form button {
+    width: 120px;
+    height: 40px;
+    background-color: #00d4ff;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0 20px 20px;
+}
