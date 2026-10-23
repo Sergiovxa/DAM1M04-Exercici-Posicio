@@ -83,7 +83,7 @@ footer a {
   }
   
   footer a:hover {
-    color: blue;
+    color: #00d4ff;
     text-decoration: underline;
   }
 
@@ -120,7 +120,7 @@ footer a {
     opacity: 0.7;
 }
 
-/* Coleccions: grid de 3 columnas */
+/* Coleccions: flex de 3 columnas */
 
 .coleccions {
     display: flex;
@@ -197,6 +197,27 @@ footer a {
     color: #00d4ff;
     font-weight: bold;
     margin: 10px 15px 15px 15px;
+}
+
+/* Filtres */
+
+.filtres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filtres span {
+    padding: 8px 16px;
+    border: 1px solid #00d4ff;
+    background-color: #111;
+    cursor: pointer;
+}
+
+.filtres span:hover {
+    background-color: #00d4ff;
+    color: black;
 }
 
 /* Contacte */
